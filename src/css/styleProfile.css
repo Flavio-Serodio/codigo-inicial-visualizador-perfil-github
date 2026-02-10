@@ -11,3 +11,8 @@
         object-fit: cover;
     }
 }
+
+.profile-counters{
+    display: flex;
+    justify-content: center;
+}
