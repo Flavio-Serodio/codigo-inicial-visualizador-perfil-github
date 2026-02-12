@@ -19,7 +19,7 @@ export function renderProfileUser(data, repos, container) {
         
 
             <div class='infoUsuario'>
-                <h2> ${data.name}</h2>
+                <h2> ${data.name || 'Não possui nome cadastrado 😢'}</h2>
                 <p> ${data.bio || 'sem biografia disponível😢'} </p>
             </div>
         </div>
